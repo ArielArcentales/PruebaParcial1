@@ -12,11 +12,8 @@ document.getElementById("formulario").addEventListener("submit", (event) => {
         alert("Todos los campos son obligatorios.");
         return;
     }
-
-    alert("Registro exitoso, ¡bienvenido!");
 });
 
-// **API de participantes aleatorios**
 fetch("https://randomuser.me/api/?results=5")
     .then(response => response.json())
     .then(data => {

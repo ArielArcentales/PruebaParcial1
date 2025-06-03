@@ -1,33 +1,74 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: white;
+    background-color: #e0e1dd;
     color: black;
     transition: 0.5s;
 }
 
 header {
-    background-color: #007acc;
-    color: white;
+    background-color: #0d1b2a;
+    color: #778da9;
     padding: 20px;
 }
+
+.tarjetaInfo {
+    background: #778da9;
+    padding: 30px;
+    border-radius: 12px;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.tarjetaInfo p {
+    color: #0d1b2a;
+    ;
+}
+
+.tarjeta {
+    background-color: #e5e5e5;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.tarjeta input {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.tarjeta h2{
+    text-align: center;
+}
+.tarjeta button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0d1b2a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 
 button {
     padding: 10px;
     margin: 10px;
     cursor: pointer;
-    background-color: #007acc;
+    background-color: #0d1b2a;
     color: white;
     border: none;
 }
 
-button:hover {
-    background-color: #005a99;
-}
-
 .dark-mode {
-    background-color: black;
-    color: white;
+    background-color: #b0c4b1;
+    color: #4a5759;
 }
 
 .lista-participantes {
