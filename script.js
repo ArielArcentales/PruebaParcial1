@@ -4,13 +4,12 @@ document.getElementById("cambiar-tema").addEventListener("click", () => {
 
 document.getElementById("formulario").addEventListener("submit", (event) => {
     event.preventDefault();
-    let nombre = document.getElementById("nombre").value.trim();
-    let correo = document.getElementById("correo").value.trim();
-    let carrera = document.getElementById("carrera").value.trim();
+    let nombre = document.getElementById("nombre").value;
+    let correo = document.getElementById("correo").value;
+    let carrera = document.getElementById("carrera").value;
 
     if (!nombre || !correo || !carrera) {
         alert("Todos los campos son obligatorios.");
-        return;
     }
 });
 
