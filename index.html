@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUCETEC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>DEV CHALLENGE</h1>
+        <p>El TEC te invita a participar del consurso de programación más esperado</p>
+    </header>
+
+    <main>
+        <section id="registro">
+            <h2>Regístrate</h2>
+            <form id="formulario">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" required>
+
+                <label for="carrera">Carrera:</label>
+                <input type="text" id="carrera" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="participantes">
+            <h2>Participantes de ediciones anteriores</h2>
+            <div class="lista-participantes"></div>
+        </section>
+
+        <button id="cambiar-tema">Cambiar tema</button>
+    </main>
+
+    <footer>
+        <p>Sigue el evento en nuestras redes:</p>
+        <a href="https://twitter.com">Twitter</a> |
+        <a href="https://github.com">GitHub</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
