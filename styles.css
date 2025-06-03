@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+header {
+    background-color: #007acc;
+    color: white;
+    padding: 20px;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #007acc;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #005a99;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.lista-participantes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
